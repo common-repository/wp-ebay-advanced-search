@@ -1,0 +1,158 @@
+.themeDev-ebay-body{
+	margin-bottom:20px;
+	border: 1px solid #ccc;
+    padding: 10px 0px;
+}
+.themeDev-ebay-body .ebay-content{
+	display: block;
+	width: 100%;
+	position:relative;
+}
+
+.themeDev-ebay-body .ebay-content .flex-div{
+	display:inline-block;
+	width: 100%;
+	padding: 0px 10px;
+}
+.themeDev-ebay-body .ebay-content .themeDev-ebay-form{
+	padding: 0px 10px;
+}
+.themeDev-ebay-body .ebay-content .flex-div .flex-item{
+	width:100%;
+	max-width: 150px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.themeDev-ebay-body .ebay-content .flex-div .flex-item input{
+	width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 1px 5px;
+    outline: none;
+}
+
+section.themeDev-ebay-body .themedev-ebay-submit {
+    cursor: pointer;
+    border: 0px;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    -webkit-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+    -o-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+    color: #fff;
+    background-color: #0073aa;
+    text-decoration: none;
+}
+.themeDev-ebay-body .ebay-content .flex-item.condition-search > label.condition{
+	width:100%;
+	display: block;
+}
+.themeDev-ebay-body .ebay-content .flex-item.condition-search{
+	max-width:100%;
+	display:inline-block;
+	float:none;
+}
+.themeDev-ebay-body .ebay-content .flex-item.condition-search > label.condition-items{
+	margin-right: 10px;
+    width: 48%;
+    display: inline-block;
+	padding: 3px 22px;
+}
+.themeDev-ebay-body .ebay-content .flex-div .flex-item select{
+	width: 100%;
+}
+
+.themeDev-ebay-body .ebay-content .product-list {
+    width: 100%;
+    max-width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
+.themeDev-ebay-body .ebay-content .product-list:last-child{
+	border-bottom: 0px solid #ccc;
+}
+.themeDev-ebay-body .ebay-content .product-list a{
+	text-decoration:none;
+	box-shadow: unset;
+}
+.themeDev-ebay-body .ebay-content .product-list a:hover{
+	text-decoration:none;
+}
+.themeDev-ebay-body .ebay-content .product-list .ebay-gallery-image{
+	display: inline-block;
+    width: 20%;
+    padding-right: 10px;
+    min-width: 170px;
+    height: 150px;
+    overflow: hidden;
+}
+.themeDev-ebay-body .ebay-content .product-list .ebay-gallery-image img{
+	width:100%;
+}
+.themeDev-ebay-body .ebay-content .product-list .ebay-gallery-image figure{
+	text-align:left;
+	width:100%;
+}
+.themeDev-ebay-body .ebay-content .product-list .ebay-title{
+	display: inline-block;
+    width: 74%;
+    align-items: center;
+    vertical-align: top;
+}
+.themeDev-ebay-body .ebay-content .product-list .ebay-title h4{
+	line-height: 1.5em;
+	font-size:14px;
+	margin-bottom: 3px;
+}
+
+.themeDev-ebay-body .ebay-content .product-list .ebay-title p{
+	line-height: 1.5em;
+	font-size:12px;
+	margin-bottom: 3px;
+	width: 49%;
+    display: inline-block;
+}
+
+.ebay-search-pagination .left-div-link{
+	display: inline-block;
+    padding: 5px;
+}
+
+/* summery search items plugin*/
+.themeDev-ebay-body .ebay-content .product-list .search-output{
+	display: inline-block;
+    width: 48%;
+    align-items: center;
+    vertical-align: top;
+}
+.themeDev-ebay-body .ebay-content .product-list .search-back{
+	width: 30%;
+}
+.themeDev-ebay-body .ebay-content .product-list .search-items{
+	width: 65%;
+}
+.themeDev-ebay-body .ebay-content .product-list .search-output.full{
+	width: 100%;
+}
+.themeDev-ebay-body .ebay-content .instraction-section .product-list {
+	display:block;
+}
+.themeDev-ebay-body .ebay-content .instraction-section .product-list p{
+	display: block;
+    width: 100%;
+}

@@ -1,0 +1,251 @@
+
+
+/*Global Style start here*/
+
+section.themeDev-ebay-body .themedev-input-text {
+   /* width: 100%;
+    max-width: 450px;
+    padding: 8px;
+	*/
+}
+section.themeDev-ebay-body .themeDev-left-div{
+	width: 49%;
+	float:left;
+}
+section.themeDev-ebay-body .themeDev-right-div{
+	width: 49%;
+	float:left;
+}
+section.themeDev-ebay-body .themeDev-ebay-form {
+	padding: 5px 0px;
+}
+
+section.themeDev-ebay-body .themeDev-ebay-form label {
+	font-weight: bold;
+	display: block;
+	line-height: 29px;
+	width: 100%;
+	clear: both;
+}
+section.themeDev-ebay-body .themeDev-ebay-form label.inline-label {
+    font-weight: bold;
+    display: inline-block;
+    line-height: 29px;
+    width: 100%;
+    max-width: 300px;
+}
+section.themeDev-ebay-body .themeDev-ebay-form input,
+section.themeDev-aws-body .themeDev-ebay-form textarea,
+section.themeDev-ebay-body .themeDev-ebay-form select{
+	font-weight: 400;
+}
+section.themeDev-ebay-body .themedev-ebay-submit{
+	cursor: pointer;
+	border: 0px;
+	display: inline-block;
+	font-weight: 400;
+	text-align: center;
+	vertical-align: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	border-radius: .25rem;
+	-webkit-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+	transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+	-o-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+	transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+	transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+	color: #fff;
+	background-color: #0073aa;
+	text-decoration: none;
+}
+
+/*Admin Settins Page */
+section.themeDev-ebay-body{
+	display:bolck;
+}
+section.themeDev-ebay-body > h2{
+	color:#333;
+	font-size: 20px;
+}
+.themedev-document-info {
+    display: block;
+    font-size: 12px;
+    font-style: italic;
+    color: #b1aeae;
+}
+
+/* switch button*/
+
+input.themedev_switch_button {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+    display: none;
+}
+
+label.themedev_switch_button_label {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 54px;
+    height: 28px;
+    background: grey;
+    display: block;
+    border-radius: 100px;
+    position: relative;
+}
+input.themedev_switch_button:checked + label.themedev_switch_button_label {
+    background: #0073aa;
+}
+label.themedev_switch_button_label:after {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 90px;
+    transition: 0.3s;
+}
+input.themedev_switch_button:checked + label.themedev_switch_button_label:after {
+    left: calc(100% - 5px);
+    transform: translateX(-100%);
+}
+
+label.themedev_switch_button_label.small {
+    width: 36px !important;
+    height: 20px;
+}
+label.themedev_switch_button_label.small:after {
+    width: 12px;
+    height: 12px;
+}
+
+.disable_themeDev_div{
+	display:none;
+}
+.enable_themeDev_div{
+	display:block;
+}
+/*Switch Section*/
+
+.themedev-switch-input {
+    opacity: 0;
+    z-index: 99;
+    position: absolute;
+}
+
+.themedev-checkbox-switch {
+    cursor: pointer;
+    margin-bottom: 0px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+	
+    display: inline-block !important;
+    line-height: 19px !important;
+    width: auto  !important;
+    clear: both;
+}
+
+.themedev-checkbox-switch {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    font-weight: 700;
+}
+.themedev-checkbox-switch  .themedev-admin-control-label-switch {
+    position: relative;
+    overflow: hidden;
+    width: 52px;
+    height: 26px;
+    display: inline-block;
+    margin-left: 10px;
+	cursor: pointer;
+}
+
+.themedev-checkbox-switch .themedev-admin-control-label-switch:after, .themedev-checkbox-switch .themedev-admin-control-label-switch:before {
+    position: absolute;
+    -webkit-transition: all 0.3s cubic-bezier(0.22, 0.61, 0.36, 1);
+    -o-transition: all 0.3s cubic-bezier(0.22, 0.61, 0.36, 1);
+    transition: all 0.3s cubic-bezier(0.22, 0.61, 0.36, 1);
+    font-weight: 700;
+    font-size: .6875rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.themedev-checkbox-switch .themedev-admin-control-label-switch:before {
+    content: attr(data-inactive);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+    border: #444444 solid 1px;
+    border-radius: 26px;
+    text-indent: 24px;
+}
+
+.themedev-switch-input:checked~.themedev-checkbox-switch .themedev-admin-control-label-switch:before {
+    border-color: #f2295b;
+    text-indent: 52px;
+}
+.themedev-checkbox-switch .themedev-admin-control-label-switch:after {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    display: block;
+    content: attr(data-active);
+    width: 18px;
+    height: 18px;
+    background-color: #444444;
+    border-radius: 100%;
+    -webkit-transition: all 0.3s cubic-bezier(0.22, 0.61, 0.36, 1);
+    -o-transition: all 0.3s cubic-bezier(0.22, 0.61, 0.36, 1);
+    transition: all 0.3s cubic-bezier(0.22, 0.61, 0.36, 1);
+    text-indent: -22px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+
+.themedev-switch-input:checked~.themedev-checkbox-switch .themedev-admin-control-label-switch:after {
+    left: 30px;
+    background-color: #f2295b;
+    color: #f2295b;
+}
+
+/*end Switch Section*/
+
+
+@media screen and (max-width: 935px) {
+	
+}
+
+@media screen and (max-width: 668px) {
+	
+	section.themeDev-aws-body .themeDev-left-div{
+		width: 100%;
+		float:none;
+	}
+	section.themeDev-aws-body .themeDev-right-div{
+		width: 100%;
+		float:none;
+	}
+}
+
+@media screen and (max-width: 380px) {
+	
+}

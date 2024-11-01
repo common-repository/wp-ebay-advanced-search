@@ -1,0 +1,2 @@
+<h3><?php echo esc_html__('Shortcode', 'themedev-ebay-advanced-search');?></h3>
+<input type="text" class="regular-text code themedev-input-text" readonly style="" value="[advanced-ebay-search-forms]" id="themedev_ebay_short_code">
